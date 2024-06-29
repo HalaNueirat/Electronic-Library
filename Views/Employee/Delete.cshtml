@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model Book
+@{
+    ViewBag.Title = "Delete Book";
+}
+<style>
+    .t {
+        margin: 0 auto;
+    }
+</style>
+<div class="t">
+<h2>Confirm Deletion</h2>
+
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="BookId" />
+
+    <button type="submit" class="btn btn-primary">Delete</button>
+
+</form>
+</div>

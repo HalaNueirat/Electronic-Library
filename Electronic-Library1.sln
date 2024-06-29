@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Electronic-Library1", "Electronic-Library1.csproj", "{43DF95B1-C955-4512-9233-76D12A97F237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43DF95B1-C955-4512-9233-76D12A97F237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DF95B1-C955-4512-9233-76D12A97F237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DF95B1-C955-4512-9233-76D12A97F237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DF95B1-C955-4512-9233-76D12A97F237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C348866-34E8-4C7C-8ADC-5466BC261953}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model Customer
+@{
+    ViewBag.Titel = " Login page ";
+}
+@{
+    Layout = null;
+}
+
+
+<style>
+    div, button {
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+</style>
+<form asp-controller="Customer" asp-action="Login" method="post">
+    <div>
+        <br>
+        <br>
+        <label for="name"> Customer Name &nbsp;</label> <br />
+        <input id="name" type="Text" name="cid" /> <br />
+    </div>
+    <div>
+        <br>
+        <br>
+        <label for="pass"> Customer Password &nbsp;</label> <br />
+        <input id="pass" type="password" name="cpass" /> <br />
+    </div>
+
+    <div>
+        <br />
+        <button type="submit">Login</button>
+    </div>
+</form>
+

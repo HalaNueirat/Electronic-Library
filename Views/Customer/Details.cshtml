@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model Customer
+<style>
+    .t {
+        margin:0 auto;}
+
+    a:visited {
+        color: green;
+    }
+
+    a:hover {
+        color: hotpink;
+</style>
+<div class="t">
+<h3>Welcome In Our Library</h3>
+<a asp-controller="Customer" asp-action="Search">Search For Books</a>
+<br />
+<a asp-controller="Customer" asp-action="ChangePassword">Change Your Password</a>
+<br />
+<a asp-controller="Customer" asp-action="Logout">Logout</a>
+<br />
+</div>

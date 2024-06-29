@@ -1,0 +1,56 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model Book
+@{
+    ViewBag.Title = " add new Book";
+}
+<style>
+    th{color:darksalmon}
+    td{background-color:antiquewhite}
+  
+</style>
+
+<h1>Add Book</h1>
+<div class="t">
+   
+        
+        <form asp-controller="Employee" asp-action="Add" method="post">
+
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <table>
+                <tr>
+                    <th>  <label asp-for="Title"> The Title</label></th>
+
+                    <td><input asp-for="Title" /><br /></td>
+                </tr>
+
+            <tr>
+                    <th>   <label asp-for="Author"> The Author</label> </th>
+                    <td> <input asp-for="Author" /><br /> </td>
+                </tr>
+
+                <tr>
+                    <th><label asp-for="Price "> The Price</label> </th>
+                    <td> <input asp-for="Price " /><br /> </td>
+</tr>
+                <tr>
+                    <th>  <label asp-for="EmployeeId "> The Employee Name</label></th>
+               <td> <select asp-for="EmployeeId ">
+                    <option value="">Select the employee</option>
+                    @foreach (Employee e in @ViewBag.em)
+                    {
+                        <option value="@e.EmployeeId"> @e.Name</option>
+                    }
+                </select>
+                    </td>
+            
+
+            <button type="submit">Add The Book</button>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+

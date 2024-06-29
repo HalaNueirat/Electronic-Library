@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model List<Book>
+<style>
+    aside {
+        float: left;
+        margin: 10px;
+        width: 1000px;
+    }
+
+
+    table, tbody, thead, tr, td, th {
+        border: thin solid black;
+    }
+
+    th {
+        background-color: greenyellow;
+    }
+
+   
+
+</style>
+<h1> Books details </h1>
+<div>
+    <form asp-controller="Customer" asp-action="Search" method="post">
+        <label>Enter Part Of Book Title</label>
+        <input type="text" name="Skey" />
+        <button type="submit">Search</button>
+    </form>
+</div>
+<br />
+<br />
+<table>
+    <thead>
+        <tr>
+            <th>Book ID</th>
+            <th>Book Title </th>
+            <th>Book Author </th>
+            <th>Book Price </th>
+            <th>Employee Name </th>
+            <th>Upload Book</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Book b in Model)
+        {
+            <tr>
+                <td>@b.BookId</td>
+                <td>@b.Title</td>
+                <td>@b.Author</td>
+                <td>@b.Price</td>
+                <td>@b.Employee.Name</td>
+                <td> <a asp-controller="Customer" asp-action="Upload">Upload</a> &nbsp;&nbsp;</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<br />
+<a class="btn btn-primary" asp-controller="Customer" asp-action="Details">Back</a>
+
