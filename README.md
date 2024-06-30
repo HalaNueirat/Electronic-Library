@@ -1,3 +1,5 @@
+This website was built using Visual Studio and ASP.NET Core MVC.
+
 Functional Requirements
 
 In general, my application is an electronic library, which can be used by two types of users, the employee and the customer, and each of
