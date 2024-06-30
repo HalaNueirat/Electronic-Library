@@ -5,58 +5,81 @@ and log out of the application, but the customer has The ability to upload a spe
 
 
 
-ER-Diagram
+
+
+
+
+
 ![ER Diagram](Images/ER-Diagram.png)
 
+ER-Diagram
 
 
 
-Relational Tables
+
 ![Employee](Images/Employee.png)
 ![Book](Images/Book.png)
 ![Customer](Images/Customer.png)
 
 
+Relational Tables
 
-Home Page
+
+
 ![Home Page](Images/Home-Page.png)
 
 
+Home Page
 
-Log in Page
+
+
 ![Log in Page](Images/Login-Page.png)
 
 
+Log in Page
 
-Welcome Page
+
+
 ![Welcome Page](Images/Welcome-Page.png)
 
 
+Welcome Page
 
-Search Page
+
+
 ![Search Page](Images/Search-Page.png)
 
 
+Search Page
 
-Upload Page
+
+
 ![Upload Page](Images/Upload-Page.png)
 
 
+Upload Page
 
-Change Password Page
+
+
 ![Change Password Page](Images/Change-Password-Page.png)
 
 
+Change Password Page
 
-Add Page
+
+
 ![Add Page](Images/Add-Page.png)
 
 
+Add Page
+
+
+
+
+![Delete Page](Images/Delete-Page.png)
 
 
 Delete Page
-![Delete Page](Images/Delete-Page.png)
-
 
 
 
