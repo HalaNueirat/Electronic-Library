@@ -1,4 +1,5 @@
 Functional Requirements
+
 In general, my application is an electronic library, which can be used by two types of users, the employee and the customer, and each of
 them has different powers, but users can log in and log out of the application, and the employee has the ability to add and delete a book 
 and log out of the application, but the customer has The ability to upload a specific book and has the ability to change the password as well.
@@ -47,11 +48,9 @@ Welcome Page
 
 
 
-
 Search Page
 
 ![Search Page](Images/Search-Page.png)
-
 
 
 
@@ -61,11 +60,9 @@ Upload Page
 
 
 
-
 Change Password Page
 
 ![Change Password Page](Images/Change-Password-Page.png)
-
 
 
 
@@ -75,12 +72,9 @@ Add Page
 
 
 
-
 Delete Page
 
 ![Delete Page](Images/Delete-Page.png)
-
-
 
 
 
